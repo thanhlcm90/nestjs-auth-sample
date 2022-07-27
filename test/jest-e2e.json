@@ -1,0 +1,15 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^modules/(.*)": "<rootDir>/../src/modules/$1",
+    "^decorators/(.*)": "<rootDir>/../src/decorators/$1",
+    "^guards/(.*)": "<rootDir>/../src/guards/$1"
+  },
+  "watchPathIgnorePatterns": ["globalConfig"]
+}
