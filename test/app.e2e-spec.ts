@@ -2,7 +2,7 @@ import {Test} from "@nestjs/testing";
 import request from "supertest";
 import {AppModule} from "../src/app.module";
 import {INestApplication} from "@nestjs/common";
-import {DbTestModule} from "modules/db/db.test.module";
+import {DbTestModule} from "db/db.test.module";
 
 describe("E2E Testing", () => {
   let app: INestApplication;

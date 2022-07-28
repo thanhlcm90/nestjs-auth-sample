@@ -9,7 +9,8 @@
   "moduleNameMapper": {
     "^modules/(.*)": "<rootDir>/../src/modules/$1",
     "^decorators/(.*)": "<rootDir>/../src/decorators/$1",
-    "^guards/(.*)": "<rootDir>/../src/guards/$1"
+    "^guards/(.*)": "<rootDir>/../src/guards/$1",
+    "^db/(.*)": "<rootDir>/../src/db/$1"
   },
   "watchPathIgnorePatterns": ["globalConfig"]
 }

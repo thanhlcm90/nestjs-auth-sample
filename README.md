@@ -9,7 +9,7 @@
 
 ## Overview
 
-This is a sample nestjs project, include then authentication that use JWT Token.
+This is a sample nestjs project, include the authentication that use JWT Token.
 
 ## Docker
 

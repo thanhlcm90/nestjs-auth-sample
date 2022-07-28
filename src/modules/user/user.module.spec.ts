@@ -1,5 +1,5 @@
 import {Test, TestingModule} from "@nestjs/testing";
-import {DbTestModule} from "modules/db/db.test.module";
+import {DbTestModule} from "db/db.test.module";
 import {UserModule} from "./user.module";
 
 describe("UserModule", () => {
